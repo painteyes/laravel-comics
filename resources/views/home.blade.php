@@ -5,6 +5,10 @@
 Homepage
 @endsection
 
+@section('main_classes')
+bg-dark
+@endsection
+
 @section('main_content')
 
     <div class="container">
@@ -15,9 +19,10 @@ Homepage
 
                 <div class="single-comic">
 
-                    @include('components.single-comic', [
+                    @include('components.comic-card', [
                         'title' => $comic['series'],
-                        'cover_path' => $comic['thumb']
+                        'cover_path' => $comic['thumb'],
+                        'id' => $comic['id']
                     ])
 
                 </div>

@@ -1,4 +1,14 @@
 main {
+
+    &.bg-dark{
+        background-color: #1c1c1c;
+    }
+
+    &.bg-light{
+        background-color: white;
+    }
+
+
     background-color: #1c1c1c;
 
     .container{

@@ -12,6 +12,14 @@ main {
   background-color: #1c1c1c;
 }
 
+main.bg-dark {
+  background-color: #1c1c1c;
+}
+
+main.bg-light {
+  background-color: white;
+}
+
 main .container {
   width: 70%;
   margin: auto;
